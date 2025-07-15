@@ -14,11 +14,11 @@ namespace game
         public List<Tower> Towers { get; set; }
         public List<Wave> Waves { get; set; }
 
-        public Level(string name, (int x, int y) mapSize, (int x, int y) startPosition, (int x, int y) endPosition, (int x, int y)[] path, List<Monster>? enemies = null, List<Tower>? towers = null, List<Wave>? waves = null, int gold = 100, int lives = 20)
+        public Level(string name, (int x, int y) mapSize, char[,] grid, (int x, int y) startPosition, (int x, int y) endPosition, (int x, int y)[] path, List<Monster>? enemies = null, List<Tower>? towers = null, List<Wave>? waves = null, int gold = 100, int lives = 20)
         {
             Name = name;
             Map_Size = mapSize;
-            Grid = new char[Map_Size.y, Map_Size.x];
+            Grid = grid;
             Start_Position = startPosition;
             End_Position = endPosition;
             Path = path;
