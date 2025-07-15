@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using game;
 
 namespace ProgramNamespace
 {
@@ -7,7 +6,12 @@ namespace ProgramNamespace
     {
         static void Main(string[] args)
         {
-            FileInfo level = new FileInfo("example.txt");
+            FileInfo level = new FileInfo(args[0]);
+        }
+        
+        public Level Parse_Level_File(FileInfo level)
+        {
+            
         }
     }
 }
