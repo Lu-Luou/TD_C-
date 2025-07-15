@@ -39,7 +39,7 @@ BOSS_DEMON:500:8
 ARCHDEMON:1000:10
 
 // Estadísticas de torretas (NAME:DAMAGE:RANGE:COST)
-BASIC_TOWER:25:3:20
+BASIC_TOWER:100:10:20
 
 // Oleadas de enemigos
 WAVES: 12

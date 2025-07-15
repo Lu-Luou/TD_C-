@@ -33,7 +33,7 @@ TROLL:150:3
 DEMON:250:4
 
 // Estadísticas de torretas (NAME:DAMAGE:RANGE:COST)
-BASIC_TOWER:25:3:20
+BASIC_TOWER:50:5:20
 
 // Oleadas de enemigos
 WAVES: 8
